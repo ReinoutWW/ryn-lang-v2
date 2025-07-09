@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/GpLambda.Compiler.csproj": {}
+  },
+  "projects": {
+    "/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/GpLambda.Compiler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/GpLambda.Compiler.csproj",
+        "projectName": "GpLambda.Compiler",
+        "projectPath": "/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/GpLambda.Compiler.csproj",
+        "packagesPath": "/home/reinout/.nuget/packages/",
+        "outputPath": "/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/reinout/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/var/snap/dotnet/common/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Antlr4.CodeGenerator": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.6.6, )"
+            },
+            "Antlr4.Runtime": {
+              "target": "Package",
+              "version": "[4.6.6, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/var/snap/dotnet/common/dotnet/sdk/9.0.107/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

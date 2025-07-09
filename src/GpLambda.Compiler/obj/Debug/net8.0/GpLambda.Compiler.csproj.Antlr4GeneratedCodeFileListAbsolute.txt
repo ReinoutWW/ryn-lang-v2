@@ -1,0 +1,10 @@
+/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/obj/Debug/net8.0/GpLambdaLexer.cs
+/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/obj/Debug/net8.0/GpLambdaParser.cs
+/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/obj/Debug/net8.0/GpLambdaListener.cs
+/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/obj/Debug/net8.0/GpLambdaBaseListener.cs
+/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/obj/Debug/net8.0/GpLambdaVisitor.cs
+/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/obj/Debug/net8.0/GpLambdaBaseVisitor.cs
+/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/obj/Debug/net8.0/GpLambdaLexer.cs
+/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/obj/Debug/net8.0/GpLambdaParser.cs
+/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/obj/Debug/net8.0/GpLambdaVisitor.cs
+/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/obj/Debug/net8.0/GpLambdaBaseVisitor.cs
