@@ -1,0 +1,18 @@
+// Hello World example in GP-λ
+
+func main() {
+    println("Hello, World!");
+    
+    // Using variables
+    let message: String = "Welcome to GP-λ!";
+    println(message);
+    
+    // Using expressions
+    let x = 5;
+    let y = 10;
+    let sum = x + y;
+    println("5 + 10 = " + sum.toString());
+    
+    // Using assertions
+    assert(sum == 15, "Math is broken!");
+}
