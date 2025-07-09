@@ -1,0 +1,51 @@
+{
+  "name": "gplambda",
+  "displayName": "GP-λ Language Support",
+  "description": "Syntax highlighting and language support for GP-λ (General-Purpose Lambda)",
+  "version": "0.1.0",
+  "publisher": "gplambda-team",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "gplambda",
+        "aliases": [
+          "GP-λ",
+          "gplambda",
+          "GP-Lambda"
+        ],
+        "extensions": [
+          ".gpl",
+          ".gplambda"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "gplambda",
+        "scopeName": "source.gplambda",
+        "path": "./syntaxes/gplambda.tmLanguage.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ReinoutWW/ryn-lang-v2.git"
+  },
+  "keywords": [
+    "gplambda",
+    "gp-lambda",
+    "functional",
+    "programming",
+    "language"
+  ],
+  "author": "GP-λ Team",
+  "license": "MIT"
+}

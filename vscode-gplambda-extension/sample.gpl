@@ -1,0 +1,79 @@
+// Sample GP-λ file to test syntax highlighting
+
+// Function declaration with parameters and return type
+func fibonacci(n: Int) -> Int {
+    if (n <= 1) {
+        return n;
+    } else {
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+}
+
+// Main entry point
+func main() {
+    // Variable declarations with type inference
+    let message = "Welcome to GP-λ!";
+    let x = 10;
+    let y = 20;
+    
+    // Built-in function calls
+    println(message);
+    println("x + y = " + (x + y).toString());
+    
+    // Boolean constants and logical operators
+    let isReady = true;
+    let isComplete = false;
+    let shouldContinue = isReady && !isComplete;
+    
+    // Conditional statements
+    if (shouldContinue) {
+        println("Processing...");
+    } else {
+        println("Cannot continue");
+    }
+    
+    // Lambda expressions
+    let square = (n: Int) => n * n;
+    let result = square(5);
+    println("5 squared = " + result.toString());
+    
+    // Function type annotation
+    let operation: Func<Int, Int, Int> = (a: Int, b: Int) => a + b;
+    let sum = operation(3, 4);
+    
+    // Assertions for Design by Contract
+    assert(sum == 7, "Addition failed!");
+    assert(result > 0);
+    
+    // Method calls
+    let input = readLine();
+    println("You entered: " + input);
+    
+    // Complex expressions with operators
+    let complex = (x * 2 + y / 4) % 10;
+    let comparison = x > 5 && y <= 30 || complex != 0;
+    
+    /* Block comment example
+       This is a multi-line comment
+       that spans several lines */
+    
+    // Nested function calls
+    println("Fibonacci(10) = " + fibonacci(10).toString());
+}
+
+// Another function with multiple parameters
+func calculate(a: Int, b: Int, op: String) -> Int {
+    if (op == "+") {
+        return a + b;
+    } else if (op == "-") {
+        return a - b;
+    } else if (op == "*") {
+        return a * b;
+    } else if (op == "/") {
+        assert(b != 0, "Division by zero!");
+        return a / b;
+    } else {
+        assert(false, "Unknown operator: " + op);
+        return 0;
+    }
+}
