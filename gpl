@@ -1,0 +1,8 @@
+#!/bin/bash
+# GP-λ compiler and runtime wrapper
+
+# Get the directory where this script is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Run the CLI tool
+exec dotnet "$SCRIPT_DIR/src/GpLambda.CLI/bin/Debug/net8.0/gpl.dll" "$@"

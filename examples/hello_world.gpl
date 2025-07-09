@@ -1,5 +1,13 @@
 // Hello World example in GP-λ
 
+func add(a: Int, b: Int) -> Int {
+    return a + b;
+}
+
+func subtract(a: Int, b: Int) -> Int {
+    return a - b;
+}
+
 func main() {
     println("Hello, World!");
     
@@ -12,6 +20,9 @@ func main() {
     let y = 10;
     let sum = x + y;
     println("5 + 10 = " + sum.toString());
+
+    let result: Int = add(x, y);
+    println("5 + 10 = " + result.toString());
     
     // Using assertions
     assert(sum == 15, "Math is broken!");

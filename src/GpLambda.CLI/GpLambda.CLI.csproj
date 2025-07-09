@@ -12,6 +12,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AssemblyName>gpl</AssemblyName>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>gpl</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+    <PackageId>GpLambda</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>GP-Lambda Team</Authors>
+    <Description>GP-λ compiler and runtime</Description>
   </PropertyGroup>
 
 </Project>
