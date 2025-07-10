@@ -8,6 +8,11 @@ func subtract(a: Int, b: Int) -> Int {
     return a - b;
 }
 
+func multiply(a: Int, b: Int) -> Int {
+    println("Multiplying " + a.toString() + " and " + b.toString());
+    return a * b;
+}
+
 func main() {
     println("Hello, World!");
     

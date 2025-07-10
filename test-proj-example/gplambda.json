@@ -1,0 +1,9 @@
+{
+  "name": "test-proj-example",
+  "version": "0.1.0",
+  "description": "A GP-\u03BB project",
+  "main": "src/main.gpl",
+  "output": "build",
+  "author": "",
+  "dependencies": {}
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kGVqXl17GGM=",
+  "dgSpecHash": "tC6Cvbx0xO4=",
   "success": true,
-  "projectFilePath": "/home/reinout/code/ryn-lang-v2/src/GpLambda.Compiler/GpLambda.Compiler.csproj",
+  "projectFilePath": "/mnt/c/Users/ReinoutWijnholds/code/ryn-lang-v2/src/GpLambda.Compiler/GpLambda.Compiler.csproj",
   "expectedPackageFiles": [
     "/home/reinout/.nuget/packages/antlr4.codegenerator/4.6.6/antlr4.codegenerator.4.6.6.nupkg.sha512",
     "/home/reinout/.nuget/packages/antlr4.runtime/4.6.6/antlr4.runtime.4.6.6.nupkg.sha512",

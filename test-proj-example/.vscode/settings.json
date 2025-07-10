@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.gpl": "gplambda",
+        "*.gplambda": "gplambda"
+    },
+    "editor.formatOnSave": false
+}

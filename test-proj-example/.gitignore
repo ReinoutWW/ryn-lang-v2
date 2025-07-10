@@ -1,0 +1,12 @@
+# Build output
+build/
+*.cs
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# OS files
+.DS_Store
+Thumbs.db

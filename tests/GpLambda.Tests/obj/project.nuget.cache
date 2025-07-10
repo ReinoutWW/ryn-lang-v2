@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CeusuTzO0bs=",
+  "dgSpecHash": "EmwYFdRtHVs=",
   "success": true,
-  "projectFilePath": "/home/reinout/code/ryn-lang-v2/tests/GpLambda.Tests/GpLambda.Tests.csproj",
+  "projectFilePath": "/mnt/c/Users/ReinoutWijnholds/code/ryn-lang-v2/tests/GpLambda.Tests/GpLambda.Tests.csproj",
   "expectedPackageFiles": [
     "/home/reinout/.nuget/packages/antlr4.runtime/4.6.6/antlr4.runtime.4.6.6.nupkg.sha512",
     "/home/reinout/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",

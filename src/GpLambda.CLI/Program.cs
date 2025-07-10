@@ -268,7 +268,7 @@ The `gpl run` command automatically builds your project before running it.
             if (!File.Exists(projectFile))
             {
                 Console.Error.WriteLine("Error: No gplambda.json found in current directory.");
-                Console.Error.WriteLine("Run 'gplambda init' to create a new project.");
+                Console.Error.WriteLine("Run 'gpl init' to create a new project.");
                 return 1;
             }
 
@@ -532,7 +532,7 @@ The `gpl run` command automatically builds your project before running it.
         var projectContent = @"<Project Sdk=""Microsoft.NET.Sdk"">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
